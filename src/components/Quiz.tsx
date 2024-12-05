@@ -37,7 +37,7 @@ export function Quiz({ subject, onComplete }: QuizProps) {
         <span className="text-lg font-semibold text-gray-600">
           Question {currentQuestionIndex + 1}/{totalQuestions}
         </span>
-        <Timer duration={60} onTimeUp={handleTimeUp} />
+        <Timer duration={120} onTimeUp={handleTimeUp} />
         <span className="text-lg font-semibold text-blue-600">
           Score: {score}
         </span>
